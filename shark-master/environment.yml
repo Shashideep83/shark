@@ -1,0 +1,5 @@
+name: shark_l
+dependencies:
+- python=3.6
+- jupyter
+- pytest
