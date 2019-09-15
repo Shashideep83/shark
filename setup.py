@@ -7,7 +7,7 @@ def readme():
 
 
 setup(
-    name="shark",
+    name="sharks",
     version="1.0.1",
     description="A Python package for data analysis.",
     long_description=readme(),
@@ -21,7 +21,7 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.7",
     ],
-    packages=["shark"],
+    packages=["sharks"],
     include_package_data=True,
     install_requires=["numpy"],
     

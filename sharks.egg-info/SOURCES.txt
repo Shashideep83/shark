@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+sharks/__init__.py
+sharks.egg-info/PKG-INFO
+sharks.egg-info/SOURCES.txt
+sharks.egg-info/dependency_links.txt
+sharks.egg-info/requires.txt
+sharks.egg-info/top_level.txt
