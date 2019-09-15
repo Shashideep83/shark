@@ -1,12 +1,12 @@
-# Data Analysis Library Shark
+# Data Analysis Library Sharks
 
-This repository contains a detailed note of a new data analysis library shark.
+This repository contains a detailed note of a new data analysis library Sharks.
 
 
 
 ## Objectives
 
-Shark :
+Sharks :
 
 * Has A DataFrame class with data stored in numpy arrays
 * Can Select subsets of data with the brackets operator
@@ -20,7 +20,7 @@ Shark :
 
 
 
-## Functionalities of Shark
+## Functionalities of Sharks
 
 
 ### 1. DataFrame constructor input types
@@ -29,10 +29,10 @@ Our DataFrame class is constructed with a single parameter.
 
 Specifically, input types must qualify the following:
 
-* Shark will raise a `TypeError` if `data` is not a dictionary
-* Shark will raise a `TypeError` if the keys of `data` are not strings
-* Shark will raise a `TypeError` if the values of `data` are not numpy arrays
-* Shark will raise a `ValueError` if the values of `data` are not 1-dimensional
+* Sharks will raise a `TypeError` if `data` is not a dictionary
+* Sharks will raise a `TypeError` if the keys of `data` are not strings
+* Sharks will raise a `TypeError` if the values of `data` are not numpy arrays
+* Sharks will raise a `ValueError` if the values of `data` are not 1-dimensional
 
 
 
@@ -72,12 +72,12 @@ we can assign all new columns to our DataFrame by setting the columns property e
 df.columns = ['state', 'age', 'fruit']
 ```
 
-Also shark will raise errors if the data that is inserted is invalid.
+Also Sharks will raise errors if the data that is inserted is invalid.
 
-* Shark will Raise a `TypeError` if the object used to set new columns is not a list
-* Shark will Raise a `ValueError` if the number of column names in the list does not match the current DataFrame
-* Shark will Raise a `TypeError` if any of the columns are not strings
-* Shark will Raise a `ValueError` if any of the column names are duplicated in the list
+* Sharks will Raise a `TypeError` if the object used to set new columns is not a list
+* Sharks will Raise a `ValueError` if the number of column names in the list does not match the current DataFrame
+* Sharks will Raise a `TypeError` if any of the columns are not strings
+* Sharks will Raise a `ValueError` if any of the column names are duplicated in the list
 
 
 
@@ -104,15 +104,15 @@ The `dtypes` property will return a two-column DataFrame with the column names i
 
 ### 11. Select a single column with the brackets
 
-In shark, you can select a single column with `df['colname']`.
+In Sharks, you can select a single column with `df['colname']`.
 
 ### 12. Select multiple columns with a list
 
-Shark will also be able to select multiple columns if given a list within the brackets. For example, `df[['colname1', 'colname2']]` will return a two column DataFrame.
+Sharks will also be able to select multiple columns if given a list within the brackets. For example, `df[['colname1', 'colname2']]` will return a two column DataFrame.
 
 ### 13. Boolean Selection with a DataFrame
 
-In shark, you can filter for specific rows of a DataFrame by passing in a boolean Series/array to the brackets. For instance, the following will select only the rows such that `a` is greater than 10.
+In Sharks, you can filter for specific rows of a DataFrame by passing in a boolean Series/array to the brackets. For instance, the following will select only the rows such that `a` is greater than 10.
 
 ```python
 >>> s = df['a'] > 10
@@ -126,19 +126,19 @@ In shark, you can filter for specific rows of a DataFrame by passing in a boolea
 
 ### 15. Select a single cell of data
 
-Shark can select a single cell of data with `df[rs, cs]`. We will assume `rs` is an integer and `cs` is either an integer or a string.
+Sharks can select a single cell of data with `df[rs, cs]`. We will assume `rs` is an integer and `cs` is either an integer or a string.
 
 
 ### 16. Simultaneously select rows as booleans, lists, or slices
 
-Shark can select rows and columns simultaneously with `df[rs, cs]`. We will allow `rs` to be either a single-column boolean DataFrame, a list of integers, or a slice. 
+Sharks can select rows and columns simultaneously with `df[rs, cs]`. We will allow `rs` to be either a single-column boolean DataFrame, a list of integers, or a slice. 
 
 ### 17. Simultaneous selection with multiple columns as a list
 
 
 ### 18.  Simultaneous selection with column slices
 
-Shark will allow  columns to be sliced with either strings or integers. The following selections will be acceptable.
+Sharks will allow  columns to be sliced with either strings or integers. The following selections will be acceptable.
 
 
 ### 19. Tab Completion for column names
@@ -153,7 +153,7 @@ The `head` and `tail` methods each accept a single integer parameter `n` which i
 
 ### 22. Generic aggregation methods
 
-Shark can implement several methods that perform an aggregation. These methods all return a single value for each column. The following aggregation methods are defined.
+Sharks can implement several methods that perform an aggregation. These methods all return a single value for each column. The following aggregation methods are defined.
 
 * min
 * max
