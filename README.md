@@ -2,6 +2,7 @@
 
 This repository contains a detailed note of a new data analysis library Sharks.
 
+[![Downloads](https://pepy.tech/badge/sharks)](https://pepy.tech/project/sharks)
 
 
 ## Objectives
